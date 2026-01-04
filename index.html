@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF6B00">
+    
+    <!-- SEO Meta Tags -->
+    <title id="seoTitle">Service Premium - Aquecedores Solar e Tubos a Vácuo em Passos, MG</title>
+    <meta name="description" id="seoDescription" content="Especialistas em instalação e manutenção de aquecedores solares e tubos a vácuo em Passos, MG. Economia de energia, conforto térmico e sustentabilidade desde 2013.">
+    <meta name="keywords" id="seoKeywords" content="aquecedor solar, tubos a vácuo, instalação aquecedor solar, manutenção aquecedor solar, Service Premium, Passos MG, aquecimento solar, economia de energia">
+    <meta name="author" content="Service Premium Aquecedores Solar e Tubos a Vácuo">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" id="ogUrl" content="https://servicepremium.com.br">
+    <meta property="og:title" id="ogTitle" content="Service Premium - Aquecedores Solar e Tubos a Vácuo em Passos, MG">
+    <meta property="og:description" id="ogDescription" content="Especialistas em instalação e manutenção de aquecedores solares e tubos a vácuo em Passos, MG. Economia de energia, conforto térmico e sustentabilidade desde 2013.">
+    <meta property="og:image" id="ogImage" content="https://placehold.co/1200x630/FF6B00/white?text=Service+Premium+Aquecedores+Solar">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" id="twitterUrl" content="https://servicepremium.com.br">
+    <meta property="twitter:title" id="twitterTitle" content="Service Premium - Aquecedores Solar e Tubos a Vácuo em Passos, MG">
+    <meta property="twitter:description" id="twitterDescription" content="Especialistas em instalação e manutenção de aquecedores solares e tubos a vácuo em Passos, MG. Economia de energia, conforto térmico e sustentabilidade desde 2013.">
+    <meta property="twitter:image" id="twitterImage" content="https://placehold.co/1200x630/FF6B00/white?text=Service+Premium+Aquecedores+Solar">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" id="canonicalUrl" href="https://servicepremium.com.br">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☀️</text></svg>">
+    <link rel="apple-touch-icon" href="https://placehold.co/192x192/FF6B00/white?text=SP">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="application/manifest+json,{%22name%22:%22Service%20Premium%22,%22short_name%22:%22Service%20Premium%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%23ffffff%22,%22theme_color%22:%22%23FF6B00%22,%22orientation%22:%22portrait%22,%22icons%22:[{%22src%22:%22https://placehold.co/192x192/FF6B00/white?text=SP%22,%22sizes%22:%22192x192%22,%22type%22:%22image/png%22},{%22src%22:%22https://placehold.co/512x512/FF6B00/white?text=SP%22,%22sizes%22:%22512x512%22,%22type%22:%22image/png%22}]}">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* ========== CONFIGURAÇÃO GLOBAL ========== */
+        :root {
+            /* CORES PRINCIPAIS - FÁCIL CUSTOMIZAÇÃO */
+            --cor-primaria: #FF6B00;
+            --cor-secundaria: #E65F00;
+            --cor-destaque: #FFD700;
+            --cor-destaque-secundario: #FFA500;
+            --cor-fundo: #ffffff;
+            --cor-texto: #1f2937;
+            --cor-texto-secundario: #6b7280;
+            --cor-fundo-secundario: #f9fafb;
+            --cor-fundo-terciario: #f3f4f6;
+            --cor-borda: #e5e7eb;
+            --cor-acento: #8b5cf6;
+            
+            /* TIPOGRAFIA */
+            --fonte-principal: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --fonte-titulo: 'Playfair Display', serif;
+            
+            /* ESPAÇAMENTOS */
+            --espacamento-pequeno: 0.5rem;
+            --espacamento-medio: 1rem;
+            --espacamento-grande: 2rem;
+            --espacamento-enorme: 4rem;
+            --espacamento-massivo: 6rem;
+            
+            /* SOMBRAS */
+            --sombra-suave: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --sombra-forte: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --sombra-card: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            --sombra-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            
+            /* ARREDONDAMENTO */
+            --borda-arredondada: 0.75rem;
+            --borda-arredondada-grande: 1.5rem;
+            --borda-arredondada-xl: 2rem;
+            
+            /* ANIMAÇÕES */
+            --tempo-transicao: 0.4s;
+            --tempo-animacao: 0.8s;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--fonte-principal);
+            color: var(--cor-texto);
+            background-color: var(--cor-fundo);
+            line-height: 1.6;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--espacamento-medio);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.875rem 2rem;
+            border-radius: var(--borda-arredondada);
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center;
+            transition: all var(--tempo-transicao) cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--cor-primaria), var(--cor-secundaria));
+            z-index: -1;
+            transition: opacity var(--tempo-transicao) ease;
+            opacity: 0;
+        }
+
+        .btn:hover::before {
+            opacity: 1;
+        }
+
+        .btn-primario {
+            background: linear-gradient(45deg, var(--cor-primaria), var(--cor-secundaria));
+            color: white;
+            box-shadow: var(--sombra-suave);
+        }
+
+        .btn-primario:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--sombra-hover);
+            color: white;
+        }
+
+        .btn-destaque {
+            background: linear-gradient(45deg, var(--cor-destaque), var(--cor-destaque-secundario));
+            color: white;
+            box-shadow: var(--sombra-suave);
+        }
+
+        .btn-destaque:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--sombra-hover);
+            color: white;
+        }
+
+        .btn-secundario {
+            background: transparent;
+            color: var(--cor-primaria);
+            border: 2px solid var(--cor-primaria);
+        }
+
+        .btn-secundario:hover {
+            background: var(--cor-primaria);
+            color: white;
+        }
+
+        .section {
+            padding: var(--espacamento-enorme) 0;
+            position: relative;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: var(--espacamento-grande);
+            font-family: var(--fonte-titulo);
+            font-size: 3rem;
+            color: var(--cor-texto);
+            position: relative;
+            line-height: 1.2;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 6px;
+            background: linear-gradient(45deg, var(--cor-primaria), var(--cor-destaque));
+            border-radius: 3px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--cor-texto-secundario);
+            margin-bottom: var(--espacamento-enorme);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.25rem;
+        }
+
+        /* ========== CABEÇALHO ========== */
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: var(--sombra-suave);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--espacamento-medio) 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: var(--espacamento-pequeno);
+            text-decoration: none;
+        }
+
+        .logo-img {
+            height: 10rem;
+            width: auto;
+            object-fit: contain;
+            border-radius: var(--borda-arredondada);
+        }
+
+        .logo-text {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--cor-primaria);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            color: var(--cor-destaque);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: var(--espacamento-medio);
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--cor-texto);
+            font-weight: 600;
+            transition: all var(--tempo-transicao) ease;
+            padding: var(--espacamento-pequeno) var(--espacamento-medio);
+            border-radius: var(--borda-arredondada);
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--cor-primaria);
+            transition: width var(--tempo-transicao) ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--cor-primaria);
+            background-color: var(--cor-fundo-secundario);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--cor-texto);
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: var(--borda-arredondada);
+            transition: background-color var(--tempo-transicao) ease;
+        }
+
+        .menu-toggle:hover {
+            background-color: var(--cor-fundo-secundario);
+        }
+
+        /* ========== SEÇÃO HERO ========== */
+        .hero {
+            padding: var(--espacamento-massivo) 0;
+            background: linear-gradient(135deg, var(--cor-fundo) 0%, var(--cor-fundo-secundario) 100%);
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 1000px;
+            height: 1000px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--cor-primaria) 0%, var(--cor-destaque) 100%);
+            opacity: 0.05;
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 650px;
+            animation: slideInLeft var(--tempo-animacao) ease forwards;
+            opacity: 0;
+        }
+
+        .hero h1 {
+            font-family: var(--fonte-titulo);
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: var(--espacamento-medio);
+            color: var(--cor-texto);
+            line-height: 1.1;
+            background: linear-gradient(45deg, var(--cor-primaria), var(--cor-destaque));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: var(--cor-texto-secundario);
+            margin-bottom: var(--espacamento-enorme);
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: var(--espacamento-medio);
+            flex-wrap: wrap;
+        }
+
+        .hero-image {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 500px;
+            width: 500px;
+            background: linear-gradient(135deg, var(--cor-primaria) 0%, var(--cor-destaque) 100%);
+            border-radius: var(--borda-arredondada-xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: center;
+            padding: var(--espacamento-grande);
+            box-shadow: var(--sombra-card);
+            animation: slideInRight var(--tempo-animacao) ease forwards;
+            opacity: 0;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            display: none;
+        }
+
+        /* ========== SEÇÃO SOBRE ========== */
+        .sobre-conteudo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--espacamento-grande);
+            align-items: center;
+        }
+
+        .sobre-texto h3 {
+            font-family: var(--fonte-titulo);
+            font-size: 2.5rem;
+            margin-bottom: var(--espacamento-medio);
+            color: var(--cor-texto);
+            line-height: 1.2;
+        }
+
+        .sobre-texto p {
+            margin-bottom: var(--espacamento-medio);
+            color: var(--cor-texto-secundario);
+            font-size: 1.1rem;
+        }
+
+        .sobre-features {
+            margin-top: var(--espacamento-grande);
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--espacamento-medio);
+            margin-bottom: var(--espacamento-grande);
+        }
+
+        .feature-icon {
+            background: linear-gradient(135deg, var(--cor-primaria), var(--cor-destaque));
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            box-shadow: var(--sombra-suave);
+        }
+
+        .sobre-imagem-container {
+            position: relative;
+            border-radius: var(--borda-arredondada-xl);
+            overflow: hidden;
+            box-shadow: var(--sombra-card);
+            height: 500px;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .sobre-imagem {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+
+        .sobre-imagem-placeholder {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--cor-primaria) 0%, var(--cor-destaque) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        /* ========== SEÇÃO SERVIÇOS ========== */
+        .servicos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--espacamento-grande);
+        }
+
+        .servico-card {
+            background: var(--cor-fundo);
+            padding: var(--espacamento-grande);
+            border-radius: var(--borda-arredondada-xl);
+            box-shadow: var(--sombra-suave);
+            transition: all var(--tempo-transicao) cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid var(--cor-borda);
+            transform: translateY(0);
+        }
+
+        .servico-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--sombra-hover);
+        }
+
+        .servico-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(135deg, var(--cor-primaria), var(--cor-destaque));
+            opacity: 0;
+            transition: opacity var(--tempo-transicao) ease;
+        }
+
+        .servico-card:hover::before {
+            opacity: 1;
+        }
+
+        .servico-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--cor-primaria), var(--cor-destaque));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--espacamento-medio);
+            color: white;
+            font-size: 2rem;
+            box-shadow: var(--sombra-suave);
+        }
+
+        .servico-icon img {
+            max-width: 50px;
+            max-height: 50px;
+            object-fit: contain;
+            display: none;
+        }
+
+        .servico-card h3 {
+            font-size: 1.75rem;
+            margin-bottom: var(--espacamento-medio);
+            color: var(--cor-texto);
+        }
+
+        .servico-card p {
+            color: var(--cor-texto-secundario);
+            margin-bottom: var(--espacamento-medio);
+            font-size: 1.1rem;
+        }
+
+        .servico-preco {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--cor-primaria);
+            margin-top: var(--espacamento-medio);
+        }
+
+        /* ========== SEÇÃO PORTFÓLIO ========== */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--espacamento-grande);
+        }
+
+        .portfolio-item {
+            border-radius: var(--borda-arredondada-xl);
+            overflow: hidden;
+            position: relative;
+            height: 350px;
+            box-shadow: var(--sombra-suave);
+            transition: transform var(--tempo-transicao) ease;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform var(--tempo-transicao) ease;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255, 107, 0, 0.9), rgba(255, 215, 0, 0.9));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity var(--tempo-transicao) ease;
+            color: white;
+            padding: var(--espacamento-grande);
+            text-align: center;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-item:hover .portfolio-image {
+            transform: scale(1.05);
+        }
+
+        .portfolio-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: var(--espacamento-pequeno);
+        }
+
+        .portfolio-category {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* ========== SEÇÃO DEPOIMENTOS ========== */
+        .depoimentos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--espacamento-grande);
+        }
+
+        .depoimento-card {
+            background: var(--cor-fundo);
+            padding: var(--espacamento-grande);
+            border-radius: var(--borda-arredondada-xl);
+            box-shadow: var(--sombra-suave);
+            position: relative;
+            border: 1px solid var(--cor-borda);
+            transition: transform var(--tempo-transicao) ease;
+        }
+
+        .depoimento-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .depoimento-card::before {
+            content: '"';
+            position: absolute;
+            top: -20px;
+            left: 20px;
+            font-size: 5rem;
+            color: var(--cor-destaque);
+            opacity: 0.2;
+            font-family: var(--fonte-titulo);
+            line-height: 1;
+        }
+
+        .depoimento-texto {
+            margin-bottom: var(--espacamento-medio);
+            color: var(--cor-texto-secundario);
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .depoimento-cliente {
+            display: flex;
+            align-items: center;
+            gap: var(--espacamento-medio);
+        }
+
+        .cliente-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--cor-primaria), var(--cor-destaque));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .cliente-info h4 {
+            font-size: 1.2rem;
+            margin-bottom: var(--espacamento-pequeno);
+            color: var(--cor-texto);
+        }
+
+        .cliente-info p {
+            color: var(--cor-texto-secundario);
+            font-size: 1rem;
+        }
+
+        /* ========== SEÇÃO CALL TO ACTION ========== */
+        .cta {
+            background: linear-gradient(135deg, var(--cor-primaria) 0%, var(--cor-secundaria) 100%);
+            color: white;
+            text-align: center;
+            padding: var(--espacamento-massivo) 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        .cta h2 {
+            font-family: var(--fonte-titulo);
+            font-size: 3rem;
+            margin-bottom: var(--espacamento-medio);
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto var(--espacamento-enorme);
+            opacity: 0.9;
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta .btn {
+            background: white;
+            color: var(--cor-primaria);
+            box-shadow: var(--sombra-hover);
+            font-size: 1.1rem;
+            padding: 1rem 2.5rem;
+        }
+
+        .cta .btn:hover {
+            background: var(--cor-fundo-secundario);
+            transform: translateY(-3px);
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: linear-gradient(135deg, var(--cor-texto) 0%, #111827 100%);
+            color: var(--cor-fundo);
+            padding: var(--espacamento-grande) 0;
+        }
+
+        .footer-conteudo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--espacamento-grande);
+        }
+
+        .footer-coluna h3 {
+            font-size: 1.25rem;
+            margin-bottom: var(--espacamento-medio);
+            position: relative;
+            padding-bottom: var(--espacamento-pequeno);
+            color: white;
+        }
+
+        .footer-coluna h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--cor-destaque);
+        }
+
+        .footer-coluna p,
+        .footer-coluna a {
+            color: #d1d5db;
+            text-decoration: none;
+            margin-bottom: var(--espacamento-pequeno);
+            display: block;
+            transition: color var(--tempo-transicao) ease;
+        }
+
+        .footer-coluna a:hover {
+            color: var(--cor-destaque);
+        }
+
+        .redes-sociais {
+            display: flex;
+            gap: var(--espacamento-medio);
+            margin-top: var(--espacamento-medio);
+        }
+
+        .redes-sociais a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--cor-fundo);
+            font-size: 1.25rem;
+            transition: all var(--tempo-transicao) ease;
+        }
+
+        .redes-sociais a:hover {
+            background: var(--cor-primaria);
+            transform: translateY(-3px);
+        }
+
+        .contato-info i {
+            margin-right: var(--espacamento-pequeno);
+            color: var(--cor-destaque);
+        }
+
+        .whatsapp-btn {
+            background: #25D366;
+            color: white !important;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--borda-arredondada);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--espacamento-pequeno);
+            margin-top: var(--espacamento-medio);
+            transition: all var(--tempo-transicao) ease;
+            text-decoration: none;
+            border: none;
+        }
+
+        .whatsapp-btn:hover {
+            background: #128C7E;
+            transform: translateY(-2px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: var(--espacamento-grande);
+            color: #9ca3af;
+            font-size: 1rem;
+            margin-top: var(--espacamento-grande);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* ========== RESPONSIVIDADE ========== */
+        @media (max-width: 1200px) {
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+            
+            .hero-image {
+                height: 450px;
+                width: 450px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+            
+            .hero-image {
+                height: 400px;
+                width: 400px;
+            }
+            
+            .section-title {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero-content {
+                max-width: 100%;
+            }
+            
+            .hero-image {
+                display: none;
+            }
+            
+            .sobre-conteudo {
+                grid-template-columns: 1fr;
+            }
+            
+            .sobre-imagem-container {
+                height: 400px;
+            }
+            
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: var(--cor-fundo);
+                flex-direction: column;
+                padding: var(--espacamento-medio);
+                box-shadow: var(--sombra-suave);
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+            }
+
+            .nav-links.ativo {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+            
+            .hero {
+                padding: var(--espacamento-enorme) 0;
+                min-height: auto;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.25rem;
+            }
+            
+            .section-title {
+                font-size: 2.25rem;
+            }
+            
+            .section-title::after {
+                width: 80px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .section {
+                padding: var(--espacamento-grande) 0;
+            }
+            
+            .sobre-imagem-container {
+                height: 350px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .section-title::after {
+                width: 60px;
+            }
+            
+            .logo-text {
+                font-size: 1.5rem;
+            }
+            
+            .sobre-imagem-container {
+                height: 300px;
+            }
+            
+            .cta h2 {
+                font-size: 2.25rem;
+            }
+        }
+
+        /* ========== ANIMAÇÕES ========== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .animate {
+            animation: fadeInUp 0.8s ease forwards;
+            opacity: 0;
+        }
+
+        .animate:nth-child(1) { animation-delay: 0.1s; }
+        .animate:nth-child(2) { animation-delay: 0.2s; }
+        .animate:nth-child(3) { animation-delay: 0.3s; }
+        .animate:nth-child(4) { animation-delay: 0.4s; }
+        .animate:nth-child(5) { animation-delay: 0.5s; }
+        .animate:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+</head>
+<body>
+    <!-- ========== CONFIGURAÇÃO FÁCIL - EDITAR APENAS ESTA SEÇÃO ========== -->
+    <script>
+        // ====== CONFIGURAÇÃO DO CLIENTE - EDITAR AQUI ======
+        const configuracao = {
+            // Informações da empresa
+            nomeEmpresa: "Service Premium",
+            slogan: "Aquecedores Solar e Tubos a Vácuo",
+            dominio: "https://servicepremium.com.br", // Domínio real do cliente
+            valorProposto: "Conforto, economia e sustentabilidade por meio de soluções em aquecimento solar",
+            
+            // Logo (URL da imagem ou deixe vazio para usar texto)
+            logoUrl: "data:image/png;base64,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", // Ex: "https://placehold.co/150x50/2563eb/white?text=LOGO"
+            
+            // Contato
+            email: "",
+            telefone: "(35) 99153-6393",
+            whatsapp: "5535991536393", // Código do país + DDD + número (sem espaços, parênteses ou traços)
+            
+            // Endereço
+            endereco: "Rua Riachuelo, 127 – Letra A<br>Bairro São Francisco, Passos – MG<br>CEP: 37902-064",
+            
+            // Redes sociais (deixe vazio para não exibir)
+            redesSociais: {
+                facebook: "https://www.facebook.com/p/Service-Aquecedor-Solar-100063456313574/",
+                instagram: "",
+                linkedin: "",
+                twitter: "",
+                youtube: ""
+            },
+            
+            // SEO
+            palavrasChave: "aquecedor solar, tubos a vácuo, instalação aquecedor solar, manutenção aquecedor solar, Service Premium, Passos MG, aquecimento solar, economia de energia",
+            descricaoSEO: "Especialistas em instalação e manutenção de aquecedores solares e tubos a vácuo em Passos, MG. Economia de energia, conforto térmico e sustentabilidade desde 2013.",
+            
+            // Seções - true para exibir, false para esconder
+            mostrarSobre: true,
+            mostrarServicos: true,
+            mostrarPortfolio: true,
+            mostrarDepoimentos: true,
+            mostrarCTA: true,
+            
+            // Imagens - URLs das imagens (use https://placehold.co/ para placeholders)
+            heroImagem: "frente.jpg", // Ex: "https://placehold.co/500x500/2563eb/white?text=Imagem+Principal"
+            sobreImagem: "https://placehold.co/600x450/FF6B00/white?text=Sobre+Nós", // Ex: "https://placehold.co/600x450/1e40af/white?text=Sobre+Nós"
+            ogImage: "https://placehold.co/1200x630/FF6B00/white?text=Service+Premium+Aquecedores+Solar" // Imagem para Open Graph
+        };
+
+        // Serviços (máximo de 6)
+        const servicos = [
+            {
+                icone: "fas fa-sun",
+                iconeImagem: "", // URL da imagem do serviço (opcional)
+                titulo: "Venda e Instalação de Aquecedores Solares",
+                descricao: "Instalação profissional de sistemas de aquecimento solar com coletor e tubos a vácuo, dimensionados para sua necessidade específica. Garantimos eficiência energética e economia de até 90% na conta de energia elétrica.",
+                preco: "Consulte-nos"
+            },
+            {
+                icone: "fas fa-wrench",
+                iconeImagem: "",
+                titulo: "Manutenção e Assistência Técnica",
+                descricao: "Serviços de manutenção preventiva e corretiva para sistemas solares, incluindo limpeza de coletores, diagnóstico de performance, correção de vazamentos e reposição de peças. Mantenha seu sistema funcionando com máxima eficiência.",
+                preco: "Consulte-nos"
+            },
+            {
+                icone: "fas fa-chart-line",
+                iconeImagem: "",
+                titulo: "Consultoria em Dimensionamento",
+                descricao: "Análise personalizada para dimensionar o sistema solar ideal para sua residência ou comércio, considerando consumo de água quente, número de pessoas, localização e orientação dos coletores. Solução otimizada para seu caso específico.",
+                preco: "Consulte-nos"
+            },
+            {
+                icone: "fas fa-plug",
+                iconeImagem: "",
+                titulo: "Integração com Sistemas de Apoio",
+                descricao: "Instalação de sistemas híbridos que combinam aquecimento solar com apoio elétrico ou a gás, garantindo água quente mesmo nos dias nublados. Solução completa e confiável para todas as condições climáticas.",
+                preco: "Consulte-nos"
+            },
+            {
+                icone: "fas fa-home",
+                iconeImagem: "",
+                titulo: "Projetos para Residências",
+                descricao: "Soluções completas de aquecimento solar para residências, desde pequenos apartamentos até grandes casas. Sistemas personalizados que atendem às necessidades de cada família, com foco em economia e conforto.",
+                preco: "Consulte-nos"
+            },
+            {
+                icone: "fas fa-building",
+                iconeImagem: "",
+                titulo: "Projetos para Comércios e Empresas",
+                descricao: "Sistemas de aquecimento solar escaláveis para estabelecimentos comerciais, indústrias e condomínios. Redução significativa de custos operacionais com água quente para banheiros, cozinha, lavanderia e outros setores.",
+                preco: "Consulte-nos"
+            }
+        ];
+
+        // Informações da seção Sobre
+        const sobre = {
+            titulo: "Nossa História",
+            texto: "Fundada em 30 de outubro de 2013, a Service Premium é especializada em instalação e manutenção de sistemas de aquecimento solar e tubos a vácuo em Passos, Minas Gerais. Com mais de 10 anos de experiência no mercado, nossa equipe técnica altamente qualificada oferece soluções personalizadas que combinam economia de energia, conforto térmico e sustentabilidade. Trabalhamos com os melhores equipamentos do mercado, garantindo qualidade e durabilidade em todos os nossos projetos.",
+            features: [
+                "Mais de 10 anos de experiência no mercado desde 2013",
+                "Equipe técnica especializada em aquecimento solar",
+                "Atendimento personalizado e local em Passos/MG",
+                "Garantia de satisfação e qualidade nos serviços",
+                "Soluções sustentáveis que reduzem o consumo de energia",
+                "Manutenção preventiva e corretiva com agendamento fácil"
+            ],
+            imagemTexto: "Equipe Service Premium"
+        };
+
+        // Portfólio (máximo de 6 itens)
+        const portfolio = [
+            {
+                imagem: "2022-07-27.jpg",
+                titulo: "Instalação Rural com Tubos a Vácuo",
+                categoria: "Aquecedor Solar",
+                descricao: "Sistema completo de aquecimento solar para zona rural com 6 pessoas, com coletor e tubos a vácuo."
+            },
+            {
+                imagem: "2022-08-09.jpg",
+                titulo: "Instalação em telhado cerâmico (vácuo)",
+                categoria: "Aquecedor Solar",
+                descricao: "Instalação em telhado cerâmico (vácuo) na zona rural"
+            },
+            {
+                imagem: "2022-08-091.jpg",
+                titulo: "Sistema á vácuo com manutenção",
+                categoria: "Manutenção",
+                descricao: "Revisão completa de sistema solar com limpeza e verificação de vazamentos."
+            },
+            {
+                imagem: "2022-08-092.jpg",
+                titulo: "Instalação em telhado fibrocimento (placas)",
+                categoria: "Aquecedor Solar",
+                descricao: "Sistema de aquecimento solar para residencias."
+            },
+            {
+                imagem: "2024-09-18.jpg",
+                titulo: "Sistema á vácuo com apoio elétrico",
+                categoria: "Integração",
+                descricao: "Sistema á vácuo com apoio elétrico na zona rural para garantir água quente mesmo nos dias nublados."
+            },
+            {
+                imagem: "2023-08-24.jpg",
+                titulo: "Instalação em telhado fibrocimento (vácuo)",
+                categoria: "Aquecedor Solar",
+                descricao: "Sistema de aquecimento solar para residencias."
+            }
+        ];
+
+        // Depoimentos (máximo de 3)
+        const depoimentos = [
+            {
+                texto: "Excelente trabalho! O sistema solar instalado pela Service Premium superou todas as nossas expectativas. Economizamos 80% na conta de energia e temos água quente sempre disponível. O atendimento foi impecável desde o primeiro contato.",
+                cliente: "Maria Silva",
+                cargo: "Proprietária - Residência Familiar",
+                empresa: "Residência Familiar"
+            },
+            {
+                texto: "Profissionalismo e qualidade no atendimento. A equipe da Service Premium entende perfeitamente as necessidades dos clientes e entrega resultados excepcionais. Recomendo a todos que buscam soluções em aquecimento solar.",
+                cliente: "João Santos",
+                cargo: "Gerente - Estabelecimento Comercial",
+                empresa: "Estabelecimento Comercial"
+            },
+            {
+                texto: "A Service Premium foi extremamente atenciosa e compreendeu perfeitamente as necessidades do nosso negócio. O resultado superou nossas expectativas em todos os aspectos. O sistema está funcionando perfeitamente há mais de 2 anos sem problemas.",
+                cliente: "Ana Oliveira",
+                cargo: "Proprietária - Empresa de Serviços",
+                empresa: "Empresa de Serviços"
+            }
+        ];
+
+        // Call to Action
+        const cta = {
+            titulo: "Pronto para economizar com aquecimento solar?",
+            subtitulo: "Agende uma consultoria gratuita e descubra como podemos ajudar sua casa ou empresa a economizar até 90% na conta de energia com um sistema solar personalizado.",
+            botaoTexto: "Agendar Consultoria Grátis"
+        };
+        // ====== FIM DA CONFIGURAÇÃO ======
+    </script>
+
+    <!-- ========== CABEÇALHO ========== -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo" id="logo" aria-label="Ir para a página inicial">
+                    <img src="" alt="Logo da Service Premium" class="logo-img" id="logoImg" loading="lazy">
+                    <span class="logo-text" id="logoText"></span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Alternar menu de navegação">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks" role="navigation">
+                    <li><a href="#inicio" aria-label="Ir para a seção Início">Início</a></li>
+                    <li><a href="#sobre" aria-label="Ir para a seção Sobre">Sobre</a></li>
+                    <li><a href="#servicos" aria-label="Ir para a seção Serviços">Serviços</a></li>
+                    <li><a href="#portfolio" aria-label="Ir para a seção Portfólio">Portfólio</a></li>
+                    <li><a href="#contato" aria-label="Ir para a seção Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== SEÇÃO HERO ========== -->
+    <section class="hero" id="inicio" role="banner">
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="heroTitulo">Service Premium</h1>
+                <p id="heroSubtitulo">Aquecedores Solar e Tubos a Vácuo</p>
+                <div class="hero-buttons" id="heroButtons">
+                    <a href="#contato" class="btn btn-primario" aria-label="Entre em contato conosco">Entre em Contato</a>
+                    <a href="#servicos" class="btn btn-secundario" aria-label="Veja nossos serviços">Nossos Serviços</a>
+                </div>
+            </div>
+            <div class="hero-image" id="heroImage">
+                <img src="2022-07-27.jpg" id="heroImageImg" alt="Aquecedor solar da Service Premium">
+                <span id="heroImagePlaceholder">Aquecedor Solar</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO SOBRE ========== -->
+    <section class="section" id="sobre" style="display: none;" aria-labelledby="sobreTitulo">
+        <div class="container">
+            <h2 class="section-title" id="sobreTitulo">Sobre Nós</h2>
+            <p class="section-subtitle" id="sobreSubtitulo">Conheça nossa história e o que nos motiva a entregar o melhor para nossos clientes.</p>
+            <div class="sobre-conteudo">
+                <div class="sobre-texto animate">
+                    <h3 id="sobreTituloInterno">Sobre Nossa Empresa</h3>
+                    <p id="sobreTexto">Texto sobre a empresa aqui.</p>
+                    <div class="sobre-features" id="sobreFeatures">
+                        <!-- Features serão inseridas aqui -->
+                    </div>
+                </div>
+                <div class="sobre-imagem-container animate">
+                    <img src="" alt="Equipe da Service Premium" class="sobre-imagem" id="sobreImagem" loading="lazy">
+                    <div class="sobre-imagem-placeholder" id="sobreImagemPlaceholder">
+                        Equipe Service Premium
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO SERVIÇOS ========== -->
+    <section class="section" id="servicos" style="display: none;" aria-labelledby="servicosTitulo">
+        <div class="container">
+            <h2 class="section-title" id="servicosTitulo">Nossos Serviços</h2>
+            <p class="section-subtitle" id="servicosSubtitulo">Oferecemos soluções completas para atender todas as necessidades do seu negócio digital.</p>
+            <div class="servicos-grid" id="servicosGrid">
+                <!-- Serviços serão inseridos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO PORTFÓLIO ========== -->
+    <section class="section" id="portfolio" style="display: none;" aria-labelledby="portfolioTitulo">
+        <div class="container">
+            <h2 class="section-title" id="portfolioTitulo">Nosso Portfólio</h2>
+            <p class="section-subtitle" id="portfolioSubtitulo">Alguns dos projetos que desenvolvemos para nossos clientes satisfeitos.</p>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Itens do portfólio serão inseridos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO DEPOIMENTOS ========== -->
+    <section class="section" id="depoimentos" style="display: none;" aria-labelledby="depoimentosTitulo">
+        <div class="container">
+            <h2 class="section-title" id="depoimentosTitulo">Depoimentos</h2>
+            <p class="section-subtitle" id="depoimentosSubtitulo">O que nossos clientes dizem sobre nosso trabalho.</p>
+            <div class="depoimentos-grid" id="depoimentosGrid">
+                <!-- Depoimentos serão inseridos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEÇÃO CALL TO ACTION ========== -->
+    <section class="cta" id="cta" style="display: none;" aria-labelledby="ctaTitulo">
+        <div class="container">
+            <h2 id="ctaTitulo">Pronto para economizar com aquecimento solar?</h2>
+            <p id="ctaSubtitulo">Agende uma consultoria gratuita e descubra como podemos ajudar sua casa ou empresa a economizar até 90% na conta de energia com um sistema solar personalizado.</p>
+            <a href="#contato" class="btn" id="ctaBotao" aria-label="Agende uma consultoria gratuita">Agendar Consultoria Grátis</a>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER - CONTATO ========== -->
+    <footer id="contato" role="contentinfo">
+        <div class="container">
+            <div class="footer-conteudo">
+                <div class="footer-coluna">
+                    <h3>Contato</h3>
+                    <p id="emailContato"></p>
+                    <p id="telefoneContato">(35) 99153-6393</p>
+                    <a href="#" class="whatsapp-btn" id="whatsappLink" aria-label="Entre em contato pelo WhatsApp">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
+                    </a>
+                    <div id="enderecoContato" style="margin-top: var(--espacamento-medio); color: #d1d5db;">
+                        Rua Riachuelo, 127 – Letra A<br>
+                        Bairro São Francisco, Passos – MG<br>
+                        CEP: 37902-064
+                    </div>
+                </div>
+                <div class="footer-coluna">
+                    <h3>Redes Sociais</h3>
+                    <div class="redes-sociais" id="redesSociais">
+                        <!-- Redes sociais serão inseridas aqui -->
+                    </div>
+                </div>
+                <div class="footer-coluna">
+                    <h3>Navegação</h3>
+                    <a href="#inicio" aria-label="Ir para a seção Início">Início</a>
+                    <a href="#sobre" aria-label="Ir para a seção Sobre">Sobre</a>
+                    <a href="#servicos" aria-label="Ir para a seção Serviços">Serviços</a>
+                    <a href="#portfolio" aria-label="Ir para a seção Portfólio">Portfólio</a>
+                    <a href="#contato" aria-label="Ir para a seção Contato">Contato</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 <span id="copyrightEmpresa">Service Premium</span>. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('application/javascript;base64,KGZ1bmN0aW9uKCl7ImFydGlmaWNpYWxfU1dfY29kZSIuYWRkRXZlbnRMaXN0ZW5lcignaW5zdGFsbCcsIGV2dCA9PiB7Y29uc29sZS5sb2coJ1NlcnZpY2UgV29ya2VyIGluc3RhbGFkYScpfSk7fSkoKTs=')
+                    .then(registration => {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(registrationError => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+
+        // Aplicar configuração
+        document.addEventListener('DOMContentLoaded', function() {
+            // Atualizar elementos com base na configuração
+            // document.getElementById('logoText').textContent = configuracao.nomeEmpresa;
+            document.getElementById('heroTitulo').textContent = configuracao.nomeEmpresa;
+            document.getElementById('heroSubtitulo').textContent = configuracao.slogan;
+            document.getElementById('copyrightEmpresa').textContent = configuracao.nomeEmpresa;
+            
+            // SEO Meta Tags
+            const fullTitle = `${configuracao.nomeEmpresa} - ${configuracao.slogan}`;
+            document.getElementById('seoTitle').textContent = fullTitle;
+            document.getElementById('seoDescription').content = configuracao.descricaoSEO;
+            document.getElementById('seoKeywords').content = configuracao.palavrasChave;
+            
+            // Open Graph
+            document.getElementById('ogTitle').content = fullTitle;
+            document.getElementById('ogDescription').content = configuracao.descricaoSEO;
+            document.getElementById('ogImage').content = configuracao.ogImage;
+            document.getElementById('ogUrl').content = configuracao.dominio;
+            
+            // Twitter
+            document.getElementById('twitterTitle').content = fullTitle;
+            document.getElementById('twitterDescription').content = configuracao.descricaoSEO;
+            document.getElementById('twitterImage').content = configuracao.ogImage;
+            document.getElementById('twitterUrl').content = configuracao.dominio;
+            
+            // Canonical
+            document.getElementById('canonicalUrl').href = configuracao.dominio;
+            
+            // Logo
+            const logoImg = document.getElementById('logoImg');
+            if (configuracao.logoUrl) {
+                logoImg.src = configuracao.logoUrl;
+                logoImg.style.display = 'block';
+            } else {
+                logoImg.style.display = 'none';
+            }
+            
+            // Contato
+            const emailContato = document.getElementById('emailContato');
+            emailContato.textContent = configuracao.email;
+            emailContato.href = 'mailto:' + configuracao.email;
+            
+            const telefoneContato = document.getElementById('telefoneContato');
+            telefoneContato.textContent = configuracao.telefone;
+            telefoneContato.href = 'tel:' + configuracao.telefone.replace(/\D/g, '');
+            
+            // WhatsApp
+            const whatsappLink = document.getElementById('whatsappLink');
+            whatsappLink.href = `https://wa.me/${configuracao.whatsapp}`;
+            whatsappLink.title = `Enviar mensagem para ${configuracao.nomeEmpresa} no WhatsApp`;
+            
+            // Endereço
+            document.getElementById('enderecoContato').innerHTML = configuracao.endereco;
+            
+            // Imagem Hero
+            const heroImageImg = document.getElementById('heroImageImg');
+            const heroImagePlaceholder = document.getElementById('heroImagePlaceholder');
+            if (configuracao.heroImagem) {
+                heroImageImg.src = configuracao.heroImagem;
+                heroImageImg.style.display = 'block';
+                heroImagePlaceholder.style.display = 'none';
+                heroImageImg.alt = `Imagem principal representando ${configuracao.nomeEmpresa}`;
+            } else {
+                heroImageImg.style.display = 'none';
+                heroImagePlaceholder.textContent = configuracao.slogan;
+            }
+            
+            // Seção Sobre
+            const sobreSection = document.getElementById('sobre');
+            if (configuracao.mostrarSobre) {
+                sobreSection.style.display = 'block';
+                document.getElementById('sobreTituloInterno').textContent = sobre.titulo;
+                document.getElementById('sobreTexto').textContent = sobre.texto;
+                document.getElementById('sobreSubtitulo').textContent = "Conheça nossa história e o que nos motiva a entregar o melhor para nossos clientes.";
+                
+                // Features
+                const sobreFeatures = document.getElementById('sobreFeatures');
+                sobreFeatures.innerHTML = '';
+                sobre.features.forEach(feature => {
+                    const featureItem = document.createElement('div');
+                    featureItem.className = 'feature-item';
+                    featureItem.innerHTML = `
+                        <div class="feature-icon">
+                            <i class="fas fa-check" aria-hidden="true"></i>
+                        </div>
+                        <div>${feature}</div>
+                    `;
+                    sobreFeatures.appendChild(featureItem);
+                });
+                
+                // Imagem Sobre
+                const sobreImagem = document.getElementById('sobreImagem');
+                const sobreImagemPlaceholder = document.getElementById('sobreImagemPlaceholder');
+                if (configuracao.sobreImagem) {
+                    sobreImagem.src = configuracao.sobreImagem;
+                    sobreImagem.style.display = 'block';
+                    sobreImagemPlaceholder.style.display = 'none';
+                    sobreImagem.alt = `Equipe da ${configuracao.nomeEmpresa}`;
+                } else {
+                    sobreImagem.style.display = 'none';
+                    sobreImagemPlaceholder.textContent = sobre.imagemTexto;
+                }
+            }
+            
+            // Seção Serviços
+            const servicosSection = document.getElementById('servicos');
+            if (configuracao.mostrarServicos) {
+                servicosSection.style.display = 'block';
+                document.getElementById('servicosSubtitulo').textContent = "Oferecemos soluções completas para atender todas as necessidades do seu negócio digital.";
+                const servicosGrid = document.getElementById('servicosGrid');
+                servicosGrid.innerHTML = '';
+                
+                servicos.slice(0, 6).forEach(servico => {
+                    const card = document.createElement('div');
+                    card.className = 'servico-card animate';
+                    card.setAttribute('role', 'article');
+                    card.setAttribute('aria-labelledby', `servico-titulo-${servico.titulo.replace(/\s+/g, '-')}`);
+                    
+                    let iconeHTML = '';
+                    if (servico.iconeImagem) {
+                        iconeHTML = `<div class="servico-icon"><img src="${servico.iconeImagem}" alt="Ícone de ${servico.titulo}" loading="lazy"></div>`;
+                    } else {
+                        iconeHTML = `<div class="servico-icon" aria-hidden="true"><i class="${servico.icone}"></i></div>`;
+                    }
+                    
+                    card.innerHTML = `
+                        ${iconeHTML}
+                        <h3 id="servico-titulo-${servico.titulo.replace(/\s+/g, '-')}">${servico.titulo}</h3>
+                        <p>${servico.descricao}</p>
+                        <div class="servico-preco">${servico.preco}</div>
+                    `;
+                    servicosGrid.appendChild(card);
+                });
+            }
+            
+            // Seção Portfólio
+            const portfolioSection = document.getElementById('portfolio');
+            if (configuracao.mostrarPortfolio && portfolio.length > 0) {
+                portfolioSection.style.display = 'block';
+                document.getElementById('portfolioSubtitulo').textContent = "Alguns dos projetos que desenvolvemos para nossos clientes satisfeitos.";
+                const portfolioGrid = document.getElementById('portfolioGrid');
+                portfolioGrid.innerHTML = '';
+                
+                portfolio.slice(0, 6).forEach((item, index) => {
+                    const portfolioItem = document.createElement('div');
+                    portfolioItem.className = 'portfolio-item animate';
+                    portfolioItem.setAttribute('role', 'article');
+                    portfolioItem.setAttribute('aria-labelledby', `portfolio-titulo-${index}`);
+                    
+                    let imagemHTML = '';
+                    if (item.imagem) {
+                        imagemHTML = `<img src="${item.imagem}" alt="${item.titulo} - ${item.categoria}" class="portfolio-image" loading="lazy">`;
+                    } else {
+                        imagemHTML = `<div class="portfolio-image" style="background: linear-gradient(135deg, var(--cor-primaria) 0%, var(--cor-destaque) 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600;">${item.titulo}</div>`;
+                    }
+                    
+                    portfolioItem.innerHTML = `
+                        ${imagemHTML}
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title" id="portfolio-titulo-${index}">${item.titulo}</h3>
+                            <p class="portfolio-category">${item.categoria}</p>
+                            <p>${item.descricao}</p>
+                        </div>
+                    `;
+                    portfolioGrid.appendChild(portfolioItem);
+                });
+            }
+            
+            // Seção Depoimentos
+            const depoimentosSection = document.getElementById('depoimentos');
+            if (configuracao.mostrarDepoimentos && depoimentos.length > 0) {
+                depoimentosSection.style.display = 'block';
+                document.getElementById('depoimentosSubtitulo').textContent = "O que nossos clientes dizem sobre nosso trabalho.";
+                const depoimentosGrid = document.getElementById('depoimentosGrid');
+                depoimentosGrid.innerHTML = '';
+                
+                depoimentos.slice(0, 3).forEach((depoimento, index) => {
+                    const depoimentoCard = document.createElement('div');
+                    depoimentoCard.className = 'depoimento-card animate';
+                    depoimentoCard.setAttribute('role', 'article');
+                    depoimentoCard.setAttribute('aria-labelledby', `depoimento-cliente-${index}`);
+                    
+                    depoimentoCard.innerHTML = `
+                        <p class="depoimento-texto">"${depoimento.texto}"</p>
+                        <div class="depoimento-cliente">
+                            <div class="cliente-avatar" aria-hidden="true">${depoimento.cliente.charAt(0)}</div>
+                            <div class="cliente-info">
+                                <h4 id="depoimento-cliente-${index}">${depoimento.cliente}</h4>
+                                <p>${depoimento.cargo}</p>
+                                <p>${depoimento.empresa}</p>
+                            </div>
+                        </div>
+                    `;
+                    depoimentosGrid.appendChild(depoimentoCard);
+                });
+            }
+            
+            // Seção CTA
+            const ctaSection = document.getElementById('cta');
+            if (configuracao.mostrarCTA) {
+                ctaSection.style.display = 'block';
+                document.getElementById('ctaTitulo').textContent = cta.titulo;
+                document.getElementById('ctaSubtitulo').textContent = cta.subtitulo;
+                document.getElementById('ctaBotao').textContent = cta.botaoTexto;
+            }
+            
+            // Redes Sociais
+            const redesContainer = document.getElementById('redesSociais');
+            redesContainer.innerHTML = '';
+            
+            const redes = [
+                { key: 'facebook', icon: 'fab fa-facebook-f', color: '#1877f2', label: 'Facebook' },
+                { key: 'instagram', icon: 'fab fa-instagram', color: '#e4405f', label: 'Instagram' },
+                { key: 'linkedin', icon: 'fab fa-linkedin-in', color: '#0077b5', label: 'LinkedIn' },
+                { key: 'twitter', icon: 'fab fa-twitter', color: '#1da1f2', label: 'Twitter' },
+                { key: 'youtube', icon: 'fab fa-youtube', color: '#ff0000', label: 'YouTube' }
+            ];
+            
+            redes.forEach(rede => {
+                if (configuracao.redesSociais[rede.key]) {
+                    const link = document.createElement('a');
+                    link.href = configuracao.redesSociais[rede.key];
+                    link.target = '_blank';
+                    link.rel = 'noopener noreferrer';
+                    link.innerHTML = `<i class="${rede.icon}" aria-hidden="true"></i>`;
+                    link.style.backgroundColor = rede.color;
+                    link.setAttribute('aria-label', `Visitar nosso ${rede.label}`);
+                    redesContainer.appendChild(link);
+                }
+            });
+            
+            // Menu mobile
+            const menuToggle = document.getElementById('menuToggle');
+            const navLinks = document.getElementById('navLinks');
+            
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('ativo');
+                const isExpanded = navLinks.classList.contains('ativo');
+                menuToggle.setAttribute('aria-expanded', isExpanded);
+            });
+            
+            // Fechar menu ao clicar em link
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('ativo');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+            
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        const headerOffset = 80;
+                        const elementPosition = target.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                        
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Animações de entrada
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'fadeInUp 0.8s ease forwards';
+                        entry.target.style.opacity = '1';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            document.querySelectorAll('.animate').forEach(el => {
+                observer.observe(el);
+            });
+            
+            // PWA Installation Prompt
+            let deferredPrompt;
+            const addBtn = document.createElement('div');
+            addBtn.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: var(--cor-primaria);
+                color: white;
+                padding: 12px 20px;
+                border-radius: 30px;
+                cursor: pointer;
+                z-index: 10000;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                font-weight: 600;
+                display: none;
+                transition: all 0.3s ease;
+            `;
+            addBtn.textContent = 'Instalar App';
+            addBtn.setAttribute('aria-label', 'Instalar aplicativo');
+            document.body.appendChild(addBtn);
+            
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPrompt = e;
+                addBtn.style.display = 'block';
+            });
+            
+            addBtn.addEventListener('click', (e) => {
+                addBtn.style.display = 'none';
+                if (deferredPrompt) {
+                    deferredPrompt.prompt();
+                    deferredPrompt.userChoice.then((choiceResult) => {
+                        if (choiceResult.outcome === 'accepted') {
+                            console.log('User accepted the A2HS prompt');
+                        } else {
+                            console.log('User dismissed the A2HS prompt');
+                        }
+                        deferredPrompt = null;
+                    });
+                }
+            });
+            
+            // Handle orientation change for better mobile experience
+            window.addEventListener('orientationchange', function() {
+                setTimeout(function() {
+                    window.scrollTo(0, 0);
+                }, 100);
+            });
+            
+            // Initialize animations after a short delay
+            setTimeout(() => {
+                document.querySelector('.hero-content').style.animation = 'slideInLeft 1s ease forwards';
+                document.querySelector('.hero-content').style.opacity = '1';
+                
+                if (document.querySelector('.hero-image')) {
+                    document.querySelector('.hero-image').style.animation = 'slideInRight 1s ease forwards';
+                    document.querySelector('.hero-image').style.opacity = '1';
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>
+
